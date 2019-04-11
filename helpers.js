@@ -1,6 +1,6 @@
 advice_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
-$("#main_header").click(function(){
-	$.getJSON(advice_url, function(data){
+$("#main_header").click(function() {
+	$.getJSON(advice_url, function(data) {
 		message = data["prophecies"]
 		set_content_in_divs(message);
 	})

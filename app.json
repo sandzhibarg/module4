@@ -2,7 +2,7 @@
   "name": "Start on Heroku: Python",
   "description": "A barebones Python app, which can easily be deployed to Heroku.",
   "image": "heroku/python",
-  "repository": "https://git.heroku.com/pacific-ridge-53390.git",
+  "repository": "https://github.com/sandzhibarg/module4.git",
   "keywords": ["python", "bottle" ],
   "env": {
     "APP_LOCATION": {
